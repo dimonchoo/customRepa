@@ -4,7 +4,6 @@ namespace app\commands\Parsers;
 
 use DiDom\Document;
 use GuzzleHttp\Client;
-use Yii;
 use yii\console\Controller;
 use PHPExcel;
 use PHPExcel_IOFactory;

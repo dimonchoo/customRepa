@@ -21,7 +21,7 @@ class GooglePlayController extends Controller
     public function actionGetData(string $url)
     {
         $client = new Client(['base_uri' => 'https://play.google.com']);
-        $content = $client->get($a)->getBody();
+        $content = $client->get($url)->getBody();
         $document = new Document($content->getContents());
         $hrefs = $document->find('div.b8cIId.ReQCgd.Q9MA7b > a');
 

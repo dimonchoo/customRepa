@@ -38,7 +38,6 @@ class ParserController extends Controller
             $jsonObject = $vacancion->getNavigationObjects(new Client, $this->startCount, $this->countByNumber);
             if ($jsonObject === false) {
                 $this->startCount = false;
-                break;
             }else{
                 $vacancion->setObject($jsonObject)->addVacancies();
                 $progress->addProgress($vacancion);

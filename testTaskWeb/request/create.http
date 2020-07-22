@@ -1,0 +1,2 @@
+POST http://wizards.com/wp-json/wp/v2/posts/?title='Dima'
+Authorization: Basic YWRtaW46TTEoYUFZJmVyNEszS0lraUwl

@@ -1,0 +1,12 @@
+{
+    "require": {
+        "imangazaliev/didom": "^1.16",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/database": "^7.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Parser\\": "Parser"
+        }
+    }
+}

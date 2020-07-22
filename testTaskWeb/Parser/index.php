@@ -4,7 +4,6 @@ require '../vendor/autoload.php';
 use Parser\Core\RssReader;
 use Illuminate\Database\Capsule\Manager as Capsule;
 
-return var_dump(base64_encode( 'admin:M1(aAY&er4K3KIkiL%' ));
 $capsule = new Capsule;
 $capsule->addConnection([
     'driver' => 'mysql',
